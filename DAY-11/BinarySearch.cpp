@@ -23,5 +23,5 @@ int main(){
     int arr[5]={1,2,3,4,5};
     int size= sizeof(arr)/sizeof(arr[0]);
     int ans=binary_search(arr,size,5);
-    cout<<"Element found at"<<ans<<endl;
+    cout<<"Element found at index: "<<ans<<endl;
 }
